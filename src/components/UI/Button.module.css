@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  outline: none;
+  width: 100%;
+
+  color: hsl(221, 14%, 31%);
+  font-size: 3.2rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  background-color: hsl(30, 25%, 89%);
+  border-bottom: solid 5px hsl(28, 16%, 65%);
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.2s;
+}
+
+.btn:active {
+  border-bottom-width: 3px;
+  transform: translateY(2px);
+}
+
+.btn--secondary,
+.btn--tertiary {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.btn--secondary {
+  background-color: hsl(225, 21%, 49%);
+  border-color: hsl(224, 28%, 35%);
+}
+
+.btn--tertiary {
+  background-color: hsl(6, 63%, 50%);
+  border-color: hsl(6, 70%, 34%);
+}
